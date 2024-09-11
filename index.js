@@ -3,6 +3,7 @@ const bot = new TelegramBot('7491959261:AAEndfyoYMAs2FkmvQ-V3U9TDsf7p7ywY7s',
 {
   polling: {
     interval: 300,
+    delay: 2,
     autoStart: true
   }
 });
